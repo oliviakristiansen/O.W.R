@@ -1,0 +1,141 @@
+/* nav bar */
+.main-nav {
+    display: -webkit-flex;
+    display: flex;
+  }
+  .main-nav a {
+    margin: 10px;
+    border-radius: 5px;
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+  }
+  .main-nav a:hover{
+    text-decoration: none;
+    color: rgb(126, 125, 211);
+  }
+ 
+/* Home page */
+  .home{
+    background-image: url('media/20.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 100px;
+    /* padding-top: 98px; */
+    color: black;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    padding-top: 15%;
+  }
+
+
+  .flex-container{
+      display: flex;
+      justify-content: flex-start;
+  }
+
+/* About page */
+  .aboutClick{
+    background-image: url('media/birds.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 5%;
+  }
+
+  .aboutClick a {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 100px;
+    color: black;
+    font-family: 'Poiret One', cursive;
+    padding-top: 17%;
+  }
+  .aboutClick a:hover {
+    text-decoration: none;
+    color: rgb(126, 125, 211);
+  }
+
+  .logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  /* .row{
+      display: flex;
+      justify-content: space-between;
+  } */
+
+  .nameAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 100px;
+    /* padding-top: 98px; */
+    color: black;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+  }
+  /* Songs Page */
+  .songsClick{
+    background-image: url('media/stringsLux.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 5%;
+  }
+
+  .songsClick a {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 100px;
+    color: black;
+    font-family: 'Poiret One', cursive;
+    padding-top: 17%;
+  }
+  .songsClick a:hover {
+    text-decoration: none;
+    color: rgb(126, 125, 211);
+  }
+
+  /* Contact Page */
+  .contactClick{
+    background-image: url('media/violin3.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 5%;
+  }
+
+  .contactClick a {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 100px;
+    color: black;
+    font-family: 'Poiret One', cursive;
+    padding-top: 17%;
+  }
+  .contactClick a:hover {
+    text-decoration: none;
+    color: rgb(126, 125, 211);
+  }
